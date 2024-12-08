@@ -1,0 +1,146 @@
+html{
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    background-color: #f84646;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+#presentation-container{
+    padding: 2.5rem 7.5rem;
+    height: 100vh;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.presentation{
+    width: 37.5rem;
+}
+
+#qualities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#qualities > img{
+    margin: 0 2.5rem;
+}
+
+.container{
+    padding: 5rem 7.5rem;
+    text-align: center;
+}
+
+.contact-title{
+    margin-top: .5rem;
+}
+
+.container > p{
+    margin-top: 1.5rem;
+}
+
+.container > button{
+    margin-top: 2rem;
+    transition: opacity 3s ease-in-out, transform 0.5s 0.2s;
+}
+
+.container > button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.background-gradient{
+    background: linear-gradient(180deg, #fff,#d9d9d9);
+}
+
+.background-red{
+    background-color: #f84646;
+    color: #fff;
+}
+
+.article-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.article-container:nth-child(even){
+    margin-top: 5rem;
+    flex-direction: row-reverse;
+}
+
+.article-details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0 2.5rem 0 0;
+    justify-content: space-between;
+}
+
+.article-details{
+    font-size: 1rem;
+}
+
+.article-container:nth-child(even) > .article-details{
+    margin: 0 0 0 2.5rem;
+}
+
+.footer-list{
+    display: flex;
+    text-align: left;
+}
+
+.footer-list > ul > li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer-list > ul > li:last-child{
+    margin-bottom: 0;
+}
+
+.footer-list > ul > li:first-child{
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.5rem;
+}
